@@ -1,0 +1,63 @@
+.hero-gradient {
+  background: linear-gradient(140deg, #267013 20%, #a19f06 100%);
+}
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.section-bg {
+  background: linear-gradient(45deg, #00500c 0%, #00bd65 100%);
+}
+
+.text {
+  display: inline-block;
+  position: relative;
+}
+
+.text p {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f2c46;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+ul {
+  text-align: justify;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+li {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+img {
+  font-size: medium;
+  margin: auto;
+  width: 500px;
+  height:300px;
+}
+.subtitulo_fundo{
+  background-color: antiquewhite;
+  width: 500px;
+  height: 300px;
+
+}

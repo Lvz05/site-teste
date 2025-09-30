@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Minas gerais Tech</title>
+  <title>Mineração e agronomia em Minas Gerais</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="minas.css" />
+  <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-brazilian-snack-traditional-cheese-bread-from-minas-gerais-pao-de-queijo-png-image_11711937.png" type="image/png" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <a href="index.html" class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 transition">
+    Espiríto Santo
+  </a>
   <style>
     body, h1, h2, h3, h4, p, nav a {
       font-family: 'Inter', sans-serif;
@@ -16,32 +19,26 @@
 </head>
 
 <body class="bg-gray-50">
-<header class="backdrop-blur-md bg-white/30 shadow-lg sticky top-0 z-50">
+  <header class="backdrop-blur-md bg-white/30 shadow-lg sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between py-4">
-
-        <nav class="flex space-x-4">
-         <a href="#mineração" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Mineração</a>
-          <a href="#agronomia" class="text-gray-700 hover:text-green-600 font-medium transition-colors">Agronomia</a>
-          <a href="#inovação" class="text-gray-700 hover:text-red-600 font-medium transition-colors">Inovação</a>
-          <a href="../index.html" class="text-gray-700 hover:text-green-800 font-medium transition-colors">Espirito Tech</a>
-        </nav>
-
+      <div class="flex items-center justify-between py-4 relative">
         <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center space-x-3">
           <div class="w-56 h-10 bg-red-600 rounded-full flex items-center justify-center">
             <span class="text-white font-bold text-base leading-none pt-[1px]" style="font-size: 20px;">MAJOR TELMO</span>
           </div>
-          <h1 class="text-2xl font-bold text-red-900 hidden md:block">Minas Tech</h1>
+          <h1 class="text-2xl font-bold text-red-900">Minas Tech</h1>
         </div>
 
-        <div>
-          <button class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100" aria-label="Menu">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </div>
-
+        <nav class="hidden md:flex space-x-8">
+          <a href="#mineração" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Mineração</a>
+          <a href="#agronomia" class="text-gray-700 hover:text-green-600 font-medium transition-colors">Agronomia</a>
+          <a href="#inovação" class="text-gray-700 hover:text-red-600 font-medium transition-colors">Inovação</a>
+        </nav>
+        <button class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100" aria-label="Menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
       </div>
     </div>
   </header>
@@ -57,7 +54,7 @@
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <button onclick="scrollToSection('mineração')" class="bg-white text-red-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
-          Mineração
+          Área de Mineração
         </button>
         <button onclick="scrollToSection('agronomia')" class="bg-red-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-red-700 transition-colors">
           Descobrir Agropecuária
@@ -98,38 +95,35 @@
     A presença de universidades como a UFMG e centros de pesquisa fortalece ainda mais o ambiente de inovação. A formação de mão de obra qualificada, aliada a uma cultura empreendedora em expansão, torna Minas um território fértil para o surgimento de novas soluções tecnológicas em áreas como saúde, educação, mobilidade e finanças.
   </p>
 
-  <footer class="bg-red-900 text-white py-10 mt-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-
+  <footer class="bg-green-900 text-white pt-12 pb-6 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10">
       <div>
-        <h3 class="text-2xl font-bold">MAJOR TELMO</h3>
-        <p class="text-sm mt-2">Conteúdo sobre tecnologia, elaborado pela turma do 2B do Ensino Técnico Major Telmo.</p>
+        <h3 class="text-2xl font-bold tracking-wide">MAJOR TELMO</h3>
+        <p class="text-sm mt-3 text-gray-200">
+          Projeto desenvolvido pela turma 2B do Ensino Técnico. Conteúdo sobre tecnologia, agronomia e petróleo no Espírito Santo.
+        </p>
       </div>
-
       <div>
-        <h4 class="text-lg font-semibold mb-2">Navegação</h4>
-        <ul class="space-y-1">
-          <li><a href="#mineração">Mineração</a></li>
-          <li><a href="#agronomia">Agropecuária</a></li>
-          <li><a href="#inovação">Inovação</a></li>
+        <h4 class="text-lg font-semibold mb-3 border-b border-green-700 pb-1">Navegação</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#petroleo" class="text-white hover:text-yellow-400 transition">🌊 Petróleo</a></li>
+          <li><a href="#agronomia" class="text-white hover:text-yellow-400 transition">🌱 Agronomia</a></li>
+          <li><a href="#economia" class="text-white hover:text-yellow-400 transition">🚀 Economia</a></li>
         </ul>
       </div>
-
       <div>
-        <h4 class="text-lg font-semibold mb-2">Siga-nos</h4>
-        <ul class="space-y-1">
-          <li><a href="https://www.instagram.com/SaraivaArthur_/" target="_blank">Arthur Saraiva</a></li>
-          <li><a href="https://www.instagram.com/brlima.br/" target="_blank">Bruno Lima</a></li>
-          <li><a href="https://www.instagram.com/pdrznlh/" target="_blank">Pedro Henrique</a></li>
-          <li><a href="https://www.instagram.com/lucasv_bjj/" target="_blank">Lucas Vasconcelos</a></li>
-          <li><a href="https://www.instagram.com/__souza.jl/" target="_blank">Julio Cezar</a></li>
+        <h4 class="text-lg font-semibold mb-3 border-b border-brown-700 pb-1">Equipe</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="https://www.linkedin.com/in/saraivaarthur" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Arthur Saraiva</a></li>
+          <li><a href="https://www.linkedin.com/in/bruno-lima-20b099325" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Bruno Lima</a></li>
+          <li><a href="https://www.linkedin.com/in/pedro-santos-2ba23236b" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Pedro Henrique</a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-vasconcelos-8834b8363" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Lucas Vasconcelos</a></li>
+          <li><a href="https://www.linkedin.com/in/julio-cezar-b594a0383" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Julio Cezar</a></li>
         </ul>
       </div>
-
     </div>
-
-    <div class="text-center text-sm mt-8 border-t border-green-800 pt-4">
-      <p>Todos os direitos reservados &copy; 2025 Major Telmo.</p>
+    <div class="border-t border-green-800 mt-10 pt-4 text-center text-sm text-gray-300">
+      <p>&copy; 2025 Major Telmo. Todos os direitos reservados.</p>
     </div>
   </footer>
 

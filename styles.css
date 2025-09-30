@@ -1,84 +1,103 @@
 .hero-gradient {
-    background: linear-gradient(140deg, #267013 20%, #a19f06 100%);
-  }
-  .card-hover {
+    background: linear-gradient(140deg, #c4a484 20%, #a9746e 100%);
+}
+
+.card-hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .card-hover:hover {
+}
+
+.card-hover:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  }
-  .section-bg {
-    background: linear-gradient(45deg, #00500c 0%, #00bd65 100%);
-  }
-  
-  .text {
+    box-shadow: 0 20px 25px -5px rgba(169, 116, 110, 0.4);
+}
+
+.section-bg {
+    background: linear-gradient(45deg, #b68e71 0%, #a27c61 100%);
+}
+
+.text {
     display: inline-block;
     position: relative;
-  }
-  
-  .text p {
+}
+
+.text p {
     position: absolute;
     top: 200px;
     right: 20px;
     font-size: 40px;
-    color: white;
-  }
-  
-  .titulo {
+    color: #6b4c3b;
+}
+
+.titulo {
     font-size: 30px;
     font-weight: bold;
-    color: #0f2c46;
+    color: #6b4c3b;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-  
-  }
-  
-  ul {
+}
+
+ul {
     text-align: justify;
     list-style-type: disc;
     list-style-position: outside;
     padding-left: 30px;
     margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-  }
+    color: #ffffff;
+}
 
-  p{
-    text-align: justify;
-    text-indent: 200px;
-    line-height: 1.5;
-  }
-
-  
-  li {
+li {
     font-size: 14px;
     margin-bottom: 20px;
-  }
-  
-  img {
+}
+
+img {
     font-size: medium;
     margin: auto;
     width: 500px;
-    height:300px;
-  }
-  .subtitulo_fundo{
-    background-color: antiquewhite;
+    height: 300px;
+}
+
+.subtitulo_fundo {
+    background-color: #d7c4b6;
     width: 500px;
     height: 300px;
-  }
-  .imagem-arredondada {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      overflow: hidden;
-      border-radius: 15px;
-    
-  }
-  @font-face {
-    font-family: "San Francisco (SF Pro)";
-    src: url("../fonts/NomeDaSuaFonte.ttf"); /* Adapte o caminho do ficheiro */
 }
-  
 
-      
+.bg-red-600 {
+    background-color: #a9746e !important; 
+}
+
+.bg-red-700 {
+    background-color: #8f635b !important;
+}
+
+.bg-red-900 {
+    background-color: #6b4c3b !important;
+}
+
+.text-red-600 {
+    color: #a9746e !important;
+}
+
+.text-red-900 {
+    color: #6b4c3b !important;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.bg-white.text-red-600:hover {
+    background-color: #d4d4d4; 
+}
+
+button.bg-red-600:hover {
+    background-color: #ffffff;
+    color: #fff;
+}
